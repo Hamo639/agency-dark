@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    height: 2000px;
+}
+/* start header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 170px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(9, 5, 5, 0.864);
+    align-items: center;
+
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.logo a{
+    font-size: 2.2em;
+    font-weight: 700;
+    color: rgba(0, 255, 191, 0.963);
+}
+.logo p{
+    font-size: 10px;
+    color: white;
+    margin-top: -8px;
+}
+
+.navbar a{
+    padding-left: 30px;
+    color: white;
+    font-weight: 500;
+}
+.fa-magnifying-glass{
+    color:rgba(0, 255, 191, 0.963) ;
+}
+/* end header */
+/* start section Home */
+
+.Home{
+    color: white;
+    height: 100vh;
+    width: 100%;
+padding-left: 60px;
+padding-top: 250px;  
+background-image: linear-gradient(to right , black, black ,rgb(4, 61, 52) ); 
+position: relative;
+}
+.Home img{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 563px;
+    height: 647px;
+    opacity:0.5 ;
+}
+
+.main_home hr{
+    color:rgba(0, 255, 191, 0.963) ;
+}
+.main_home h3{
+    color: rgba(0, 255, 191, 0.963);
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+.main_home h1{
+    
+    font-size: 2.8em;
+}
+.main_home h2{
+    font-size: 2.8em;
+    margin-top: -14PX;
+
+}
+.main_home p{
+    margin-top: 10px;
+}
+ .fa-circle-play{
+    font-size: 3.5em;
+    color: rgba(0, 255, 191, 0.963);
+    cursor: pointer;
+    
+}
+.icon_home{
+    margin-top: 50px;
+    display: flex;
+    
+    
+}
+.content_home {
+    margin-left: 40px;
+}
+.content_home p{
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+.content_home h3{
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: 400;
+}
+/* end section Home */
+
+/* start section Services */
+.Services{
+    margin-top: 0px;
+    height: 90vh;
+    padding-top: 40px;
+    padding-left: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.content_serviceright{
+    margin-top: 120px;
+    margin-right: 100px;
+  }
+.card_services h3{
+    color: rgba(0, 255, 191, 0.963);
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+.card_services h1{
+    font-size: 2.5em;
+    margin-top: 2PX;
+}
+.card_services p{
+    margin-top: 30px;
+    font-size: 1em;
+}
+.card_services button{
+    background-color:rgb(0, 255, 187) ;
+    border: none;
+    width: 96px;
+    height: 36px;
+    color: white;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.content_servicesleft{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 120px 20px;
+
+
+
+}
+.content_servicesleft img{
+    width: 65px;
+    height: 65px;
+}
+.main_card{
+    margin: 10px 20px;
+}
+
+#main_card1{
+    background-color: rgba(128, 128, 128, 0.055);
+    padding: 15px 20px;
+    
+}
+#main_card2{
+    background-image: linear-gradient(to bottom , black, black,rgb(4, 61, 52) ); 
+       padding: 15px 20px;
+       position: relative;
+       top: 20px;
+       
+}
+#main_card3{
+    background-image: linear-gradient(to bottom , black, black ,rgb(4, 61, 52) ); 
+       padding: 15px 20px;
+}
+#main_card4{
+    background-color: rgba(128, 128, 128, 0.055);
+       padding: 15px 20px;
+       position: relative;
+       top: 30px;
+}   
+/* end section Services */
+
+/* start section about as */
+.aboutas {
+   background-color: rgb(16, 16, 16);
+   height: 600px; 
+   position: relative;
+}
+.img1{
+position: absolute;
+left: 104px;
+top: 48px;
+}
+.mainaboutas{
+padding-top: 40px;
+color: white;
+position: absolute;
+left: 600px;
+
+}
+.mainaboutas h2{
+    font-size: 50px;
+}
+.maincardaboutas{
+    margin-top: 10px;
+}
+.maincardaboutas1{
+  display: flex;
+}
+.card1{
+    margin-left: 20px;
+}
+.maincardaboutas{
+    display: flex; ;
+    justify-content: space-between;
+}
+.maincardaboutas p{
+    color: gainsboro;
+}
+/* end section about as */
+.submeans{
+    
+    background-size: cover;
+    background-position: right;
+    background-image: linear-gradient(to left , black, black ,rgb(4, 61, 52) ); 
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 0;
+    left: 0;
+
+
+}
+.submeans1{
+text-align: center;
+margin-top: 20px;
+}
+.submeans .hamo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+
+
